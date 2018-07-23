@@ -7,7 +7,7 @@ extension = .F90
 
 # default is to build with gfortran
 .PHONY: all
-all : gnu
+all : pgi
 
 # Shorthand for specific compilers (gnu, intel, pgi, nag, cray)
 
